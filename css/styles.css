@@ -1,10 +1,235 @@
 * {
     margin: 0;
     padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
-.button {
-    width: 200px;
-    height: 51;
+.title-h1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873; 
+}
+.h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+.subtitle {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+.button-1 {
+    padding: 13px 33px;
+    margin-left: 45px;
+    margin-right: 45px;
+    color: white;
+    cursor: pointer;
     background: #E3B873;
-    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    border: 0;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header {
+    background-color: #131313;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.logo {
+    color: #E3B873;
+    text-transform: uppercase;
+    margin-right: 95px;
+    margin-left: 45px;
+}
+.header-navigation {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    
+}
+.header-navigation-item {
+    margin-right: 47px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+.header-navigation-item a {
+    text-decoration: none;
+    color: white;
+}
+.header-navigation-item a:hover {
+    color: #E3B873;
+}
+.number {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+}
+
+.text-num-1 {
+    padding-top: 194px;
+}
+.text-with-image {
+    padding-top: 194px;
+    padding-left: 134px;
+    color: white;
+    background-size: cover;
+    height: 707px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8) ), url('../images/house-wrapper.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+}
+.title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+.title span {
+    color: #E3B873;
+}
+.main-title-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+}
+.buttons {
+    padding-top: 41px;
+}
+.button-2 {
+    padding: 19px 42px 20px 41px;
+    color: white;
+    cursor: pointer;
+    background: #E3B873;
+    border: 0;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+.button-glass {
+    padding: 18px 23px 19px 22px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+}
+.text2 {
+    background-color: #131313;
+}
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 655px;
+    padding-top: 107px;
+}
+.main-navigation-item {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    padding-right: 60px;
+}
+.main-navigation-item a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+.main-navigation-item a:hover {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 7px;
+}
+.main-content-1 {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    margin-left: 95px;
+}
+.main-content-1-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-right: 122px;
+}
+.paragraf-first {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+}
+.podfirst {
+    padding-bottom: 60px;
+}
+.pad {
+    margin-bottom: 34px;
+}
+.pod-main-content {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3px;
+}
+.txt1 {
+    width: 200px;
+}
+.chair {
+    display: flex;
+    margin-top: -520px;
+    height: 482px;
+    width: 679px;
 }
