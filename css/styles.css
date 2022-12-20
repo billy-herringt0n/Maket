@@ -140,6 +140,8 @@
     line-height: 36px;
 }
 .buttons {
+    display: flex;
+    flex-direction: row;
     padding-top: 41px;
 }
 .button-2 {
@@ -233,7 +235,6 @@
     margin-top: 42px;
     display: flex;
     flex-direction: column;
-    
 }
 .row {
     display: flex;
@@ -408,7 +409,19 @@
     justify-content: center;
     margin-top: 31px;
 }
+.images-3-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 31px;
+}
 .tri-cartinci {
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tri-cartinci-c {
     padding-right: 30px;
     display: flex;
     align-items: center;
@@ -418,6 +431,14 @@
     padding: 0;
 }
 .subtitle-img {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+.subtitle-img-c {
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
@@ -775,4 +796,375 @@
     background-color: #181818;
     height: 133px;
     align-items: center;
+}
+.mb {
+    display: none;
+}
+@media all and (max-width: 376px) {
+    .header {
+        width: 375px;
+    }
+    .header nav {
+        display: none;
+    }
+    .number {
+        color: #FFF;
+        border: 0;
+    }
+    .button-1 {
+        display: none;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .button-2 {
+        width: 339px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .button-glass {
+        width: 339px;
+        margin-top: 26px;
+        margin-left: 0;
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .logo {
+        font-size: 11px;
+        line-height: 15px;
+        margin-right: 0;
+        margin-left: 18px;
+    }
+    .number {
+        font-size: 11px;
+        line-height: 15px;
+        margin-right: 18px;
+        width: 107px;
+    }
+    .title {
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+    .main {
+        width: 375px;
+    }
+    .text2 {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-title-text {
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+    .text-with-image {
+        padding-left: 18px;
+        background-image: url(../images/Group-68.png);
+        background-repeat: no-repeat;
+        padding-top: 85px;
+        height: 476px;
+    }
+    .title-h1 {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        align-self: flex-start;
+        margin-left: 120px;
+    }
+    .paragraf-first {
+        font-size: 11px;
+        line-height: 158.48%;
+        text-align: center;
+        padding-left: 0;
+        margin-left: 40px;
+        align-self: flex-start;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .chair {
+        display: none;
+    }
+    .strelki {
+        display: none;
+    }
+    .pod-main-content {
+        text-align: left;
+        margin-left: 18px;
+    }
+    .h3 {
+        font-size: 14px;
+        line-height: 138.6%;
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .podfirst {
+        padding-bottom: 27px;
+        text-align: left;
+        margin: 0;
+    }
+    .pad {
+        padding-bottom: 0px;
+    }
+    .main-content-1 {
+        margin: 0;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .main-content-1-text {
+        margin-right: 0;
+        margin-top: 36px;
+        display: flex;
+    }
+    .mb {
+        display: flex;
+    }
+    .chair-mb {
+        margin-left: 18px;
+    }
+    .strelka-mb-1-left {
+        padding: 13px 15px;
+        background-color: #E3B873;
+        border: 0;
+        border-radius: 30px;
+        margin-left: 14px;
+        width: 40px;
+        height: 40px;
+        margin-top: 97px;
+    }
+    .strelka-mb-1-right {
+        padding: 13px 15px;
+        padding-left: 16.5px;
+        background-color: #E3B873;
+        border: 0;
+        border-radius: 30px;
+        margin-left: 235px;
+        width: 40px;
+        height: 40px;
+        margin-top: 97px;
+    }
+    .rt-180 {
+        transform: rotate(180deg);
+    }
+    .img-mb-background {
+        background-image: url(../images/image-for-mb-1.png);
+        width: 340px;
+        height: 241.5px;
+        margin-left: 18px;
+        margin-top: 72px;
+    }
+    .subtitle {
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+    .fix {
+        display: none;
+    }
+    .mb-video {
+        display: block;
+        cursor: pointer;
+    }
+    .text3 {
+        margin-top: -1px;
+        background-color: #131313;
+        height: 545px;
+    }
+    .hr {
+        margin-top: 29px;
+        margin-bottom: 10px;
+    }
+    .par {
+        font-size: 11px;
+        line-height: 169.8%;
+        color: #FFF;
+    }
+    .pk {
+        display: none;
+    }
+    .form-group {
+        flex-direction: column;
+    }
+    .form-group label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .form-group input {
+        background-color: #131313;
+        color: #FFF;
+        width: 340px;
+        border-bottom: 1px solid #FFF;
+        margin-right: 0;
+    }
+    #Name {
+        margin-bottom: 72px;
+    }
+    .form-group ::-webkit-input-placeholder {
+        color:white;
+    }
+    .form-group-2 ::-webkit-input-placeholder {
+        color:white;
+    }
+    .labels {
+        width: 340px;
+    }
+    #Phone {
+        margin-bottom: 27px;
+    }
+    .button-3 {
+        width: 340px;
+        height: 51px;
+        box-shadow: none;
+        margin-top: 63px;
+    }
+    .checkbox {
+        margin-top: 0;
+    }
+    .checkbox span {
+        color: #FFF;
+    }
+    .text4 {
+        margin-top: 58px;
+    }
+    .hammer {
+        margin-top: 17px;
+    }
+    .images-3 {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .tri-cartinci {
+        margin-bottom: 59px;
+        padding: 0;
+        align-items: flex-start;
+    }
+    .tri-cartinci img {
+        width: 340px;
+        height: 365px;
+    }
+    .images-3-text {
+        width: 270px;
+        height: 241px;
+        margin-top: -140px;
+    }
+    .subtitle-img {
+        font-size: 15px;
+        line-height: 138.6%;
+    }
+    .images-3-text ul {
+        margin-top: 10px;
+    }
+    .images-3-text li {
+        font-size: 13px;
+        line-height: 169.8%;
+    }
+    .button-4 {
+        font-size: 15px;
+        line-height: 138.6%;
+        width: 190px;
+        height: 40px;
+    }
+    .options-and-form {
+        display: none;
+    }
+    .pig {
+        display: none;
+    }
+    .text5 {
+        background-color: #FFF;
+        background-image: none;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+    .mb-tlt {
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+    .text-5 {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+    .spis {
+        display: none;
+    }
+    .four-images {
+        display: none;
+    }
+    .mb-spis {
+        background-image: url(../images/image-5.3.png);
+        width: 340px;
+        height: 241.5px;
+        margin-top: 24px;
+        position: relative;
+        z-index: 0;
+    }
+    .text6 {
+        display: none;
+    }
+    .text7 {
+        background-color: #131313;
+        background-image: none;
+        height: 675px;
+    }
+    .labels-2 {
+        flex-direction: column;
+    }
+    .form-group-2 {
+        margin-left: 0;
+    }
+    .form-3 {
+        padding-top: 173px;
+        width: 100%;
+        align-items: flex-start;
+        height: 100%;
+        margin-top: -660px;
+    }
+    .h-2 {
+        align-self: center;
+    }
+    .form-3 input {
+        width: 340px;
+        margin-bottom: 73px;
+    }
+    .in-3 {
+        margin: 0;
+    }
+    .email input {
+        margin-bottom: 21px;
+    }
+    .form-group-2 input {
+        border-bottom: 1px solid #FFF;
+    }
+    .ch-b {
+        margin-bottom: 67px;
+    }
+    .button-6 {
+        width: 340px;
+        height: 51px;
+        box-shadow: none;
+        font-size: 13px;
+        line-height: 27px;
+    }
+    .lt-mb {
+        font-size: 18px;
+        line-height: 138.6%;
+        margin-bottom: 23px;
+        margin-left: 0;
+    }
+    .last-text {
+        margin-top: 46px;
+    }
+    .last-svg {
+        margin-top: 0;
+        margin-bottom: 49px;
+    }
+    .footer {
+        display: none;
+    }
+    .map-mb {
+        margin-bottom: 41px;
+    }
 }
